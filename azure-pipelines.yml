@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'MyPool'
+pool: 'MyPool'
 strategy:
   matrix:
     Python27:
